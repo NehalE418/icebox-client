@@ -1,0 +1,58 @@
+.Home {
+  height: 100vh;
+}
+
+.Data-tabs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Data-tabs :hover {
+  font-style: italic;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.datasetList {
+  min-height: 10vh;
+  height: auto;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.Profiles {
+  height: 50vh;
+  overflow: auto;
+}
+.profiles {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1%;
+}
+.img {
+  height: 5rem;
+}
+.img1 {
+  height: 3rem;
+}
+
+.dropdown {
+  cursor: pointer;
+}
+.dropdown .close {
+  height: 0px;
+  color: white;
+  display: none;
+}
+
+.dropdown .open {
+  height: 10vh;
+  overflow: auto;
+}
